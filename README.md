@@ -7,7 +7,7 @@ Anyway listen user how to handle these two projects
 
 1. Open sit_and_pose.blend
 
-2. Looked at the two variables sit_up_mod and sit_up_mod_plus. sit_up_mod is basic, the second sit_up_mod_plus is additive and affects the animations sit, sit_zen, sit_rollercoaster, pose_ducking_02 because they are located a little lower than the rest.
+2. Looked at the two variables sit_up_mod and sit_up_mod_plus. sit_up_mod is basic, the second sit_up_mod_plus is additive and affects the animations sit, sit_zen, sit_rollercoaster, pose_ducking_02 because they are located a little lower than the others.
 
 3. Changed the variables to the desired ones, clicked the arrow and export.
 
