@@ -1,9 +1,17 @@
 # Gmod Animations Sit&Сidle fix for small models
 Just shitty Blender Proj
 
-Done for f_anm, now lazy to do for m_anm
+#Done for f_anm, now lazy to do for m_anm
 
-Anyway listen user how to handle these two projects
+# Without fix
+
+https://github.com/DiskInsideHead/gmod-animations-sit-cidle-fix/assets/138657329/947090df-d87f-4d18-9907-1f1cb7439130
+
+# With fix
+
+https://github.com/DiskInsideHead/gmod-animations-sit-cidle-fix/assets/138657329/fa145d95-6c9b-4d23-a126-a11100aa2629
+
+#Anyway listen user how to handle these two projects
 
 1. Open sit_and_pose.blend
 
@@ -22,3 +30,6 @@ Anyway listen user how to handle these two projects
 8. In the main QC after $includemodel "f_anm.mdl" write $include "anims_sit_fix.qci".
    
 9. Compile
+
+
+
