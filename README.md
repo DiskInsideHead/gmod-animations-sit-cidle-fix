@@ -11,7 +11,7 @@ https://github.com/DiskInsideHead/gmod-animations-sit-cidle-fix/assets/138657329
 
 https://github.com/DiskInsideHead/gmod-animations-sit-cidle-fix/assets/138657329/fa145d95-6c9b-4d23-a126-a11100aa2629
 
-#Anyway listen user how to handle these two projects
+# Anyway listen user how to handle these two projects
 
 1. Open sit_and_pose.blend
 
