@@ -1,4 +1,4 @@
-# gmod-animations-sit-cidle-fix
+# Gmod Animations Sit&Сidle fix for small models
 Just shitty Blender Proj
 
 Done for f_anm, now lazy to do for m_anm
