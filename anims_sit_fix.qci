@@ -1,0 +1,1016 @@
+
+
+
+
+$declaresequence "gmod_breath_layer_sitting"
+$declaresequence "gmod_breath_layer_lock_hands"
+$declaresequence "gmod_breath_layer_lock_right"
+$declaresequence "gmod_breath_layer"
+$declaresequence "vehicle_steer"
+
+$animation "drive_airboat_left" "anims_fix\drive_airboat_left.smd" {
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 3
+    walkframe 1 LX LY
+}
+
+$animation "drive_airboat_right" "anims_fix\drive_airboat_right.smd" {
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 3
+    walkframe 1 LX LY
+}
+
+$animation "drive_airboat_center" "anims_fix\drive_airboat_center.smd" {
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 3
+    walkframe 1 LX LY
+}
+
+$animation "drive_jeep_left" "anims_fix\drive_jeep_left.smd" {
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 3
+    walkframe 1 LX LY
+}
+
+$animation "drive_jeep_right" "anims_fix\drive_jeep_right.smd" {
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 3
+    walkframe 1 LX LY
+}
+
+$animation "drive_jeep_center" "anims_fix\drive_jeep_center.smd" {
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 3
+    walkframe 1 LX LY
+}
+
+$animation "sit_rollercoaster_idle" "anims_fix\sit_rollercoaster_idle.smd" {
+    fps 30
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 3
+}
+
+$animation "sit_rollercoaster_fall" "anims_fix\sit_rollercoaster_fall.smd" {
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 1
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 2
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 3
+}
+
+$animation "sit_rollercoaster_fast" "anims_fix\sit_rollercoaster_fast.smd" {
+    fps 30
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 1
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 2
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 3
+}
+
+
+$sequence "sit" {
+    "anims_fix\sit.smd"
+    activity "ACT_HL2MP_SIT" 1
+    fadein 0.3
+    fadeout 0.3
+    addlayer "gmod_breath_layer_sitting"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 3 usesequence 
+}
+
+
+$sequence "sit_ar2" {
+    "anims_fix\sit_ar2.smd"
+    activity "ACT_HL2MP_SIT_AR2" 1
+    fadein 0.2
+    fadeout 0.2
+    addlayer "gmod_breath_layer_sitting"
+    addlayer "aimlayer_shotgun"
+    node "sitting"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 3 usesequence 
+}
+
+$sequence "sit_camera" {
+    "anims_fix\sit_camera.smd"
+    activity "ACT_HL2MP_SIT_CAMERA" 1
+    fadein 0.2
+    fadeout 0.2
+    addlayer "gmod_breath_layer_sitting"
+    addlayer "aimlayer_camera_crouch"
+    node "sitting"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 3 usesequence 
+}
+
+$sequence "sit_crossbow" {
+    "anims_fix\sit_crossbow.smd"
+    activity "ACT_HL2MP_SIT_CROSSBOW" 1
+    fadein 0.2
+    fadeout 0.2
+    addlayer "gmod_breath_layer_sitting"
+    addlayer "soldier_Aim_9_directions"
+    node "sitting"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 3 usesequence 
+}
+
+$sequence "sit_duel" {
+    "anims_fix\sit_duel.smd"
+    activity "ACT_HL2MP_SIT_duel" 1
+    fadein 0.2
+    fadeout 0.2
+    addlayer "gmod_breath_layer_sitting"
+    addlayer "aimlayer_dual"
+    node "sitting"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 3 usesequence 
+}
+
+$sequence "sit_fist" {
+    "anims_fix\sit_fist.smd"
+    activity "ACT_HL2MP_SIT_FIST" 1
+    fadein 0.2
+    fadeout 0.2
+    addlayer "gmod_breath_layer_sitting"
+    addlayer "aimlayer_dual"
+    node "sitting"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 3 usesequence 
+}
+
+$sequence "sit_grenade" {
+    "anims_fix\sit_grenade.smd"
+    activity "ACT_HL2MP_SIT_GRENADE" 1
+    fadein 0.2
+    fadeout 0.2
+    addlayer "gmod_breath_layer_sitting"
+    addlayer "aimlayer_melee"
+    node "sitting"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 3 usesequence 
+}
+
+$sequence "sit_knife" {
+    "anims_fix\sit_knife.smd"
+    activity "ACT_HL2MP_SIT_KNIFE" 1
+    fadein 0.2
+    fadeout 0.2
+    addlayer "gmod_breath_layer_sitting"
+    addlayer "aimlayer_knife"
+    node "sitting"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 3 usesequence 
+}
+
+$sequence "sit_melee" {
+    "anims_fix\sit_melee.smd"
+    activity "ACT_HL2MP_SIT_MELEE" 1
+    fadein 0.2
+    fadeout 0.2
+    addlayer "gmod_breath_layer_sitting"
+    addlayer "aimlayer_melee"
+    node "sitting"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 3 usesequence 
+}
+
+$sequence "sit_melee2" {
+    "anims_fix\sit_melee2.smd"
+    activity "ACT_HL2MP_SIT_MELEE2" 1
+    fadein 0.2
+    fadeout 0.2
+    addlayer "gmod_breath_layer_sitting"
+    addlayer "aimlayer_melee2"
+    node "sitting"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 3 usesequence 
+}
+
+$sequence "sit_pistol" {
+    "anims_fix\sit_pistol.smd"
+    activity "ACT_HL2MP_SIT_PISTOL" 1
+    fadein 0.2
+    fadeout 0.2
+    addlayer "gmod_breath_layer_sitting"
+    addlayer "aimlayer_revolver_walk"
+    node "sitting"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 3 usesequence 
+}
+
+$sequence "sit_shotgun" {
+    "anims_fix\sit_shotgun.smd"
+    activity "ACT_HL2MP_SIT_SHOTGUN" 1
+    fadein 0.2
+    fadeout 0.2
+    addlayer "gmod_breath_layer_sitting"
+    addlayer "aimlayer_shotgun"
+    node "sitting"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 3 usesequence 
+}
+
+$sequence "sit_smg1" {
+    "anims_fix\sit_smg1.smd"
+    activity "ACT_HL2MP_SIT_SMG1" 1
+    fadein 0.2
+    fadeout 0.2
+    addlayer "gmod_breath_layer_sitting"
+    addlayer "aimlayer_shotgun"
+    node "sitting"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 3 usesequence 
+}
+
+$sequence "sit_physgun" {
+    "anims_fix\sit_physgun.smd"
+    activity "ACT_HL2MP_SIT_PHYSGUN" 1
+    fadein 0.2
+    fadeout 0.2
+    addlayer "gmod_breath_layer_sitting"
+    addlayer "aimlayer_physgun"
+    node "sitting"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 3 usesequence 
+}
+
+$sequence "sit_rpg" {
+    "anims_fix\sit_rpg.smd"
+    activity "ACT_HL2MP_SIT_RPG" 1
+    fadein 0.2
+    fadeout 0.2
+    addlayer "gmod_breath_layer_sitting"
+    addlayer "aimlayer_rpg_crouch"
+    node "sitting"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 3 usesequence 
+}
+
+$sequence "sit_passive" {
+    "anims_fix\sit_passive.smd"
+    activity "ACT_HL2MP_SIT_PASSIVE" 1
+    fadein 0.2
+    fadeout 0.2
+    addlayer "gmod_breath_layer_sitting"
+    addlayer "body_rot_z"
+    node "sitting"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 3 usesequence 
+}
+
+$sequence "sit_slam" {
+    "anims_fix\sit_slam.smd"
+    activity "ACT_HL2MP_SIT_SLAM" 1
+    fadein 0.2
+    fadeout 0.2
+    addlayer "gmod_breath_layer_sitting"
+    addlayer "aimlayer_melee"
+    node "sitting"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 3 usesequence 
+}
+
+$sequence "sit_rollercoaster" {
+    "sit_rollercoaster_fall"
+    "sit_rollercoaster_idle"
+    "sit_rollercoaster_fast"
+    activity "ACT_GMOD_SIT_ROLLERCOASTER" 1
+    blend "vertical_velocity" -1 1
+    blendwidth 3
+    fadein 0.3
+    fadeout 0.3
+    addlayer "gmod_breath_layer_sitting"
+}
+
+$sequence "sit_zen" {
+    "anims_fix\sit_zen.smd"
+    fadein 0.2
+    fadeout 0.2
+    addlayer "gmod_breath_layer_lock_hands"
+    fps 5
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 5 5 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 5 5 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 5 5 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 5 5 target 3 usesequence 
+}
+
+//$sequence "pose_ducking_01" {
+//    "anims_fix\pose_ducking_01.smd"
+//    activity "ACT_GMOD_SHOWOFF_DUCK_01" -1
+//    fadein 0.2
+//    fadeout 0.2
+//    addlayer "gmod_breath_layer_lock_right"
+//    fps 1
+//    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0 usesequence 
+//    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1 usesequence 
+//    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2 usesequence 
+//    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 3 usesequence 
+//}
+
+$sequence "pose_ducking_02" {
+    "anims_fix\pose_ducking_02.smd"
+    activity "ACT_GMOD_SHOWOFF_DUCK_02" -1
+    fadein 0.2
+    fadeout 0.2
+    addlayer "gmod_breath_layer_lock_hands"
+    fps 1
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 3 usesequence 
+}
+
+$sequence "drive_airboat" {
+    "drive_airboat_left"
+    "drive_airboat_center"
+    "drive_airboat_right"
+    activity "ACT_DRIVE_AIRBOAT" 1
+    blend "vehicle_steer" -1 1
+    blendwidth 3
+    fadein 0.2
+    fadeout 0.2
+}
+
+$sequence "drive_jeep" {
+    "drive_jeep_left"
+    "drive_jeep_center"
+    "drive_jeep_right"
+    activity "ACT_DRIVE_JEEP" 1
+    blend "vehicle_steer" -1 1
+    blendwidth 3
+    fadein 0.2
+    fadeout 0.2
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$declaresequence "aimlayer_ar2" 
+
+$declaresequence "aimlayer_camera" 
+
+$declaresequence "aimlayer_camera_crouch" 
+
+$declaresequence "aimlayer_crossbow" 
+
+$declaresequence "aimlayer_dual" 
+
+$declaresequence "aimlayer_dual_crouch" 
+
+$declaresequence "aimlayer_dual_walk" 
+
+$declaresequence "aimlayer_dual_run" 
+
+$declaresequence "aimlayer_knife" 
+
+$declaresequence "aimlayer_knife_crouch" 
+
+$declaresequence "aimlayer_knife_walk" 
+
+$declaresequence "aimlayer_magic" 
+
+$declaresequence "aimlayer_magic_crouch" 
+
+$declaresequence "aimlayer_melee" 
+
+$declaresequence "aimlayer_melee2" 
+
+$declaresequence "aimlayer_melee2_crouch" 
+
+$declaresequence "aimlayer_physgun" 
+
+$declaresequence "aimlayer_physgun_crouch" 
+
+$declaresequence "aimlayer_physgun_run" 
+
+$declaresequence "aimlayer_pistol" 
+
+$declaresequence "aimlayer_pistol_crouch" 
+
+$declaresequence "aimlayer_pistol_walk" 
+
+$declaresequence "aimlayer_pistol_run" 
+
+$declaresequence "aimlayer_rpg" 
+
+$declaresequence "aimlayer_rpg_crouch" 
+
+$declaresequence "aimlayer_revolver" 
+
+$declaresequence "aimlayer_revolver_walk" 
+
+$declaresequence "aimlayer_revolver_run" 
+
+$declaresequence "aimlayer_slam" 
+
+$declaresequence "aimlayer_slam_crouch" 
+
+$declaresequence "aimlayer_shotgun" 
+
+$declaresequence "aimlayer_smg" 
+
+$declaresequence "aimlayer_magic_delta_ref" 
+
+$declaresequence "aimlayer_magic_delta" 
+
+$declaresequence "soldier_Aim_9_directions" 
+
+$declaresequence "weapons_Aim_9_directions" 
+
+$declaresequence "weapons_Aim_9_directions_Alert" 
+
+$declaresequence "body_rot_z" 
+
+$declaresequence "idle_layer" 
+
+$declaresequence "idle_fist_layer_weak" 
+
+$declaresequence "idle_layer_alt" 
+
+$sequence "cidle_all" {
+    "anims_fix\cidle_all.smd"
+    activity "ACT_HL2MP_IDLE_CROUCH" 1
+    fadein 0.3
+    fadeout 0.3
+    addlayer "gmod_breath_layer"
+    addlayer "idle_layer"
+    fps 20
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 119 119 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 119 119 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 119 119 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 119 119 target 3 usesequence 
+}
+
+$sequence "cidle_ar2" {
+    "anims_fix\cidle_ar2.smd"
+    activity "ACT_HL2MP_IDLE_CROUCH_AR2" 1
+    fadein 0.3 
+    addlayer "aimlayer_ar2"
+    addlayer "gmod_breath_layer"
+    node "crouching"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3 usesequence 
+}
+
+$sequence "cidle_crossbow" {
+    "anims_fix\cidle_crossbow.smd"
+    activity "ACT_HL2MP_IDLE_CROUCH_CROSSBOW" 1
+    fadein 0.3
+    fadeout 0.3
+    addlayer "aimlayer_crossbow"
+    addlayer "gmod_breath_layer"
+    node "crouching"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3 usesequence 
+}
+
+$sequence "cidle_camera" {
+    "anims_fix\cidle_camera.smd"
+    activity "ACT_HL2MP_IDLE_CROUCH_CAMERA" 1
+    fadein 0.3
+    fadeout 0.3
+    addlayer "aimlayer_camera_crouch"
+    addlayer "gmod_breath_layer"
+    addlayer "idle_layer"
+    node "crouching"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3 usesequence 
+}
+
+$sequence "cidle_dual" {
+    "anims_fix\cidle_dual.smd"
+    activity "ACT_HL2MP_IDLE_CROUCH_DUEL" 1
+    fadein 0.3
+    fadeout 0.3
+    addlayer "aimlayer_dual_crouch"
+    addlayer "gmod_breath_layer"
+    node "crouching"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3 usesequence 
+}
+
+$sequence "cidle_fist" {
+    "anims_fix\cidle_fist.smd"
+    activity "ACT_HL2MP_IDLE_CROUCH_FIST" 1
+    fadein 0.3
+    fadeout 0.3
+    addlayer "aimlayer_dual_crouch"
+    addlayer "gmod_breath_layer"
+    addlayer "idle_fist_layer_weak"
+    node "crouching"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 127 127 target 0
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 127 127 target 1
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 127 127 target 2
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 127 127 target 3
+}
+
+$sequence "cidle_grenade" {
+    "anims_fix\cidle_grenade.smd"
+    activity "ACT_HL2MP_IDLE_CROUCH_GRENADE" 1
+    fadein 0.3
+    fadeout 0.3
+    addlayer "aimlayer_melee"
+    addlayer "gmod_breath_layer"
+    addlayer "idle_layer_alt"
+    node "crouching"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3 usesequence 
+}
+
+$sequence "cidle_knife" {
+    "anims_fix\cidle_knife.smd"
+    activity "ACT_HL2MP_IDLE_CROUCH_KNIFE" 1
+    fadein 0.3
+    fadeout 0.3
+    addlayer "aimlayer_knife_crouch"
+    addlayer "gmod_breath_layer"
+    addlayer "idle_layer"
+    node "crouching"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3 usesequence 
+}
+
+$sequence "cidle_magic" {
+    "anims_fix\cidle_magic.smd"
+    activity "ACT_HL2MP_IDLE_CROUCH_MAGIC" 1
+    fadein 0.3
+    fadeout 0.3
+    addlayer "aimlayer_magic_crouch"
+    addlayer "gmod_breath_layer"
+    addlayer "idle_layer_alt"
+    node "crouching"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3 usesequence 
+}
+
+$sequence "cidle_melee" {
+    "anims_fix\cidle_melee.smd"
+    activity "ACT_HL2MP_IDLE_CROUCH_MELEE" 1
+    fadein 0.3
+    fadeout 0.3
+    addlayer "aimlayer_melee"
+    addlayer "gmod_breath_layer"
+    addlayer "idle_layer"
+    node "crouching"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3 usesequence 
+}
+
+$sequence "cidle_melee2" {
+    "anims_fix\cidle_melee2.smd"
+    activity "ACT_HL2MP_IDLE_CROUCH_MELEE2" 1
+    fadein 0.3
+    fadeout 0.3
+    addlayer "aimlayer_melee2_crouch"
+    addlayer "gmod_breath_layer"
+    addlayer "idle_layer"
+    node "crouching"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3 usesequence 
+}
+
+$sequence "cidle_physgun" {
+    "anims_fix\cidle_physgun.smd"
+    activity "ACT_HL2MP_IDLE_CROUCH_PHYSGUN" 1
+    fadein 0.3
+    fadeout 0.3
+    addlayer "aimlayer_physgun_crouch"
+    addlayer "gmod_breath_layer"
+    addlayer "idle_layer"
+    node "crouching"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3 usesequence 
+}
+
+$sequence "cidle_pistol" {
+    "anims_fix\cidle_pistol.smd"
+    activity "ACT_HL2MP_IDLE_CROUCH_PISTOL" 1
+    fadein 0.3
+    fadeout 0.3
+    addlayer "aimlayer_revolver_run"
+    addlayer "gmod_breath_layer"
+    node "crouching"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3 usesequence 
+}
+
+$sequence "cidle_revolver" {
+    "anims_fix\cidle_revolver.smd"
+    activity "ACT_HL2MP_IDLE_CROUCH_REVOLVER" 1
+    fadein 0.3
+    fadeout 0.3
+    addlayer "aimlayer_revolver"
+    addlayer "gmod_breath_layer"
+    node "crouching"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3 usesequence 
+}
+
+$sequence "cidle_rpg" {
+    "anims_fix\cidle_rpg.smd"
+    activity "ACT_HL2MP_IDLE_CROUCH_RPG" 1
+    fadein 0.3
+    fadeout 0.3
+    addlayer "aimlayer_rpg_crouch"
+    addlayer "gmod_breath_layer"
+    node "crouching"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3 usesequence 
+}
+
+$sequence "cidle_shotgun" {
+    "anims_fix\cidle_shotgun.smd"
+    activity "ACT_HL2MP_IDLE_CROUCH_SHOTGUN" 1
+    fadein 0.3
+    fadeout 0.3
+    addlayer "aimlayer_shotgun"
+    addlayer "gmod_breath_layer"
+    node "crouching"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3 usesequence 
+}
+
+$sequence "cidle_slam" {
+    "anims_fix\cidle_slam.smd"
+    activity "ACT_HL2MP_IDLE_CROUCH_SLAM" 1
+    fadein 0.3
+    fadeout 0.3
+    addlayer "aimlayer_slam_crouch"
+    addlayer "gmod_breath_layer"
+    addlayer "idle_layer"
+    node "crouching"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3 usesequence 
+}
+
+$sequence "cidle_smg1" {
+    "anims_fix\cidle_smg1.smd"
+    activity "ACT_HL2MP_IDLE_CROUCH_SMG1" 1
+    fadein 0.3
+    fadeout 0.3
+    addlayer "aimlayer_smg"
+    addlayer "gmod_breath_layer"
+    node "crouching"
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0 usesequence 
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1 usesequence 
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2 usesequence 
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3 usesequence 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$animation "a_CwalkC" "anims_fix\a_CwalkC.smd" {
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 119 119 target 0
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 119 119 target 1
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 119 119 target 2
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 119 119 target 3
+}
+
+$animation "a_CrouchWalking_cwalk_ar2_C" "anims_fix\a_CrouchWalking_cwalk_ar2_C.smd" {
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3
+}
+
+$animation "a_CrouchWalking_cwalk_camera_C" "anims_fix\a_CrouchWalking_cwalk_camera_C.smd" {
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3
+}
+
+$animation "a_CrouchWalking_cwalk_dual_C" "anims_fix\a_CrouchWalking_cwalk_dual_C.smd" {
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3
+}
+
+$animation "a_CrouchWalking_cwalk_fist_C" "anims_fix\a_CrouchWalking_cwalk_fist_C.smd" {
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3
+}
+
+$animation "a_CrouchWalking_cwalk_knife_C" "anims_fix\a_CrouchWalking_cwalk_knife_C.smd" {
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3
+}
+
+$animation "a_CrouchWalking_cwalk_magic_C" "anims_fix\a_CrouchWalking_cwalk_magic_C.smd" {
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3
+}
+
+$animation "a_CrouchWalking_cwalk_melee2_C" "anims_fix\a_CrouchWalking_cwalk_melee2_C.smd" {
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3
+}
+
+$animation "a_CrouchWalking_cwalk_pistol_C" "anims_fix\a_CrouchWalking_cwalk_pistol_C.smd" {
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3
+}
+
+$animation "a_CrouchWalking_cwalk_physgun_C" "anims_fix\a_CrouchWalking_cwalk_physgun_C.smd" {
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3
+}
+
+$animation "a_CrouchWalking_cwalk_revolver_C" "anims_fix\a_CrouchWalking_cwalk_revolver_C.smd" {
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3
+}
+
+$animation "a_CrouchWalking_cwalk_rpg_C" "anims_fix\a_CrouchWalking_cwalk_rpg_C.smd" {
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3
+}
+
+$animation "a_CrouchWalking_cwalk_shotgun_C" "anims_fix\a_CrouchWalking_cwalk_shotgun_C.smd" {
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3
+}
+
+$animation "a_CrouchWalking_cwalk_smg1_C" "anims_fix\a_CrouchWalking_cwalk_smg1_C.smd" {
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3
+}
+
+$animation "a_CrouchWalking_cwalk_grenade_C" "anims_fix\a_CrouchWalking_cwalk_grenade_C.smd" {
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3
+}
+
+$animation "a_CrouchWalking_cwalk_melee_C" "anims_fix\a_CrouchWalking_cwalk_melee_C.smd" {
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3
+}
+
+$animation "a_CrouchWalking_cwalk_slam_C" "anims_fix\a_CrouchWalking_cwalk_slam_C.smd" {
+    fps 30
+    loop
+    ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0
+    ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1
+    ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2
+    ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3
+}
+
