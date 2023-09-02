@@ -861,7 +861,7 @@ $sequence "cidle_smg1" {
 
 
 
-$animation "a_CwalkC" "anims_fix\a_CwalkC.smd" {
+$animation "a_CwalkC" "anims_fix\cidle_all.smd" {
     fps 30
     loop
     ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 119 119 target 0
