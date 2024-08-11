@@ -1,7 +1,7 @@
 # Gmod Animations Sit&Сidle fix for small models
 Just shitty Blender Proj
 
-# ONLY FOR F_ANM, im lazy to do for m_anm
+# Work for f_anm and m_anm
 
 # Without fix
 
